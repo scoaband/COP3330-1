@@ -2,7 +2,7 @@ package week03.c04.p08;
 
 import java.util.Scanner;
 
-public class C04P08 {
+public class Application {
     /*
      * (Gas Mileage) Drivers are concerned with the mileage their automobiles get.
      * One driver has kept track of several trips by recording the miles driven and

@@ -1,6 +1,6 @@
 package week03.c04.p13;
 
-public class C04P13 {
+public class Application {
     /*
      * Write a Java application that uses looping to print the following table of values:
 

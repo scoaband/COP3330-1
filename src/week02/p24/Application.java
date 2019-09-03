@@ -2,7 +2,7 @@ package week02.p24;
 
 import java.util.Scanner;
 
-public class Problem24 {
+public class Application {
     /*
        (Separating the Digits in an Integer) Write an application that inputs 
        one number consisting of five digits from the user, separates the number 

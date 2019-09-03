@@ -2,7 +2,7 @@ package week01.p11;
 
 import java.util.Scanner;
 
-public class Problem11 {
+public class Application {
     /*
      * (Arithmetic, Smallest and Largest) Write an application that inputs three
      * integers from the user and displays the sum, average, product, smallest and

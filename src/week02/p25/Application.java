@@ -2,7 +2,7 @@ package week02.p25;
 
 import java.util.Scanner;
 
-public class Problem25 {
+public class Application {
     /*
      * (Table of Squares and Cubes) Using only variables, basic arithmetic and 
      * relational operators,  console IO, and selection statements, write an

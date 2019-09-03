@@ -2,7 +2,7 @@ package week02.p20;
 
 import java.util.Scanner;
 
-public class Problem20 {
+public class Application {
     /*
      * (Multiples) Write an application that reads two integers, determines whether
      * the first is a multiple of the second and prints the result.

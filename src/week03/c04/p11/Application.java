@@ -2,7 +2,7 @@ package week03.c04.p11;
 
 import java.util.Scanner;
 
-public class C04P11 {
+public class Application {
     /*
      * (Salary Calculator) Develop a Java application that determines the gross pay
      * for each of three employees. The company pays straight time for the first 40

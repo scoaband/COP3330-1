@@ -2,7 +2,7 @@ package week01.p09;
 
 import java.util.Scanner;
 
-public class Problem {
+public class Application {
     /*
      * 2.15 (Arithmetic) Write an application that asks the user to enter two integers, 
      * obtains them from the user and prints their sum, product, difference and quotient 

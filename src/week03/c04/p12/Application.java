@@ -2,7 +2,7 @@ package week03.c04.p12;
 
 import java.util.Scanner;
 
-public class C04P12 {
+public class Application {
     /*
      * (Find the Largest Number) The process of finding the largest value is used
      * frequently in computer applications. For example, a program that determines

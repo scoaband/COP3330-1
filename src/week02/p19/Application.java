@@ -2,7 +2,7 @@ package week02.p19;
 
 import java.util.Scanner;
 
-public class Problem19 {
+public class Application {
     /*
      * (Odd or Even) Write an application that reads an integer and determines and prints whether 
      * it’s odd or even

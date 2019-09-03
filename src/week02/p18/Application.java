@@ -2,7 +2,7 @@ package week02.p18;
 
 import java.util.Scanner;
 
-public class Program18 {
+public class Application {
 
     /*
      * (Largest and Smallest Integers) Write an application that reads five integers

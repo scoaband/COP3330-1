@@ -2,7 +2,7 @@ package week02.p26;
 
 import java.util.Scanner;
 
-public class Problem26 {
+public class Application {
     /*
      * (Negative, Positive and Zero Values) Write a program that inputs five numbers
      * and determines and prints the number of negative numbers input, the number of

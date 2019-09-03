@@ -2,7 +2,7 @@ package week02.p22;
 
 import java.util.Scanner;
 
-public class Problem22 {
+public class Application {
     /*
      * Write an application that inputs from the user the radius of a circle as an
      * integer and prints the circle’s diameter, circumference and area using the

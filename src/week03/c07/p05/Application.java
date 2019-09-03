@@ -2,7 +2,7 @@ package week03.c07.p05;
 
 import java.util.Scanner;
 
-public class C07P05 {
+public class Application {
     /*
      * (Sales Commissions) Use a one-dimensional array to solve the following
      * problem: A company pays its salespeople on a commission basis. The

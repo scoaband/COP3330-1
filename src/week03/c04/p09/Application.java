@@ -2,7 +2,7 @@ package week03.c04.p09;
 
 import java.util.Scanner;
 
-public class C04P09 {
+public class Application {
     /*
      * Develop a Java application that determines whether any of several
      * department-store customers has exceeded the credit limit on a charge account.
@@ -45,6 +45,8 @@ public class C04P09 {
 
         System.out.println("Please enter the allowed credit limit: ");
         creditLimit = in.nextInt();
+        
+        in.close();
 
         endingBalance = beginningBalance + totalCharges - totalCredits;
         System.out.printf("Customer %d has an ending balance is $%d\n", accountNumber, endingBalance);

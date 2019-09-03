@@ -2,7 +2,7 @@ package week03.c04.p10;
 
 import java.util.Scanner;
 
-public class C04P10 {
+public class Application {
     /*
      * (Sales Commission Calculator) A large company pays its salespeople on a
      * commission basis. The salespeople receive $200 per week plus 9% of their

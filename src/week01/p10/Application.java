@@ -2,7 +2,7 @@ package week01.p10;
 
 import java.util.Scanner;
 
-public class Problem10 {
+public class Application {
 	/*
 	 * (Comparing Integers) Write an application that asks the user to enter two
 	 * integers, obtains them from the user and displays the larger number followed

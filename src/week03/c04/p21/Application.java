@@ -2,7 +2,7 @@ package week03.c04.p21;
 
 import java.util.Scanner;
 
-public class C04P21 {
+public class Application {
     /*
      * (Square of Asterisks) Write an application that prompts the user to enter the
      * size of the side of a square, then displays a hollow square of that size made

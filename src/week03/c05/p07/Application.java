@@ -2,7 +2,7 @@ package week03.c05.p07;
 
 import java.util.Scanner;
 
-public class C05P07 {
+public class Application {
     /*
      * (Find the Smallest Value) Write an application that finds the smallest of
      * several integers. Assume that the first value read specifies the number of

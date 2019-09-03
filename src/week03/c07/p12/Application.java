@@ -2,7 +2,7 @@ package week03.c07.p12;
 
 import java.util.Random;
 
-public class C07P12 {
+public class Application {
     /*
      * (Dice Rolling) Write an application to simulate the rolling of two dice. The
      * application should use an object of class Random once to roll the first die
@@ -27,7 +27,6 @@ public class C07P12 {
             
             results[roll - 2]++;
         }
-        
         
         System.out.printf("%-8s%8s%8s\n", "Roll", "Count", "Freq");
         for(int i = 0; i < results.length; i++) {

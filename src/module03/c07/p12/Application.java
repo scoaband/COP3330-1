@@ -1,4 +1,4 @@
-package week03.c07.p12;
+package module03.c07.p12;
 
 import java.util.Random;
 

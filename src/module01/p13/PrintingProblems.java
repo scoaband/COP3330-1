@@ -1,4 +1,4 @@
-package week01.p13;
+package module01.p13;
 
 public class PrintingProblems {
 

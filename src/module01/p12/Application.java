@@ -1,4 +1,4 @@
-package week01.p12;
+package module01.p12;
 
 public class Application {
 	/*

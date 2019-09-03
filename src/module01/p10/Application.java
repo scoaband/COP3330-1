@@ -1,4 +1,4 @@
-package week01.p10;
+package module01.p10;
 
 import java.util.Scanner;
 

@@ -8,7 +8,7 @@ public class Application {
      * obtains them from the user and prints their sum, product, difference and quotient 
      * (division).
      */
-
+	
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         
@@ -17,18 +17,18 @@ public class Application {
         
         System.out.print("Enter the second number: ");
         int n2 = in.nextInt();
+      
+        double answer = n1 + n2;
+        System.out.printf("%d + %d = %.0f\n", n1, n2, answer);
         
-        int ans = n1 + n2;
-        System.out.printf("%d + %d = %d\n", n1, n2, ans);
+        answer = n1 - n2;
+        System.out.printf("%d - %d = %f\n", n1, n2, answer);
         
-        ans = n1 - n2;
-        System.out.printf("%d - %d = %d\n", n1, n2, ans);
+        answer = n1 * n2;
+        System.out.printf("%d * %d = %f\n", n1, n2, answer);
         
-        ans = n1 * n2;
-        System.out.printf("%d * %d = %d\n", n1, n2, ans);
-        
-        ans = n1 / n2;
-        System.out.printf("%d / %d = %d\n", n1, n2, ans);
+        answer = n1 / n2;
+        System.out.printf("%d / %d = %f\n", n1, n2, answer);
         
         in.close();
     }

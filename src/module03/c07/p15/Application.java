@@ -1,5 +1,7 @@
 package module03.c07.p15;
 
+import java.util.Scanner;
+
 public class Application {
 	/*
 	 * (Total Sales) Use a two-dimensional array to solve the following problem: A
@@ -31,11 +33,50 @@ public class Application {
 		//   col represents sales person   (0-3)
 		//   row represents product        (0-4)
 		//   value is daily dollar value
+	    final int NUM_EMPLOYEES = 2;
+	    final int NUM_PRODUCTS = 2;
+	    
+	    double[][] sales = new double[NUM_EMPLOYEES][NUM_PRODUCTS];
 		
-		// for each day in the month
-		//   for each sales person
-		//     for each product
-		//       read dollar value and add to value in sales array
+	    // for each sales person
+        //   for each product
+        //     read dollar value and add to value in sales array
+	    Scanner in = new Scanner(System.in);
+	    double amount = 0;
+	    System.out.println("You will now be prompted to enter the total sales data for this month.");
+	    for(int employeeId = 0; employeeId < sales.length; employeeId++) {
+	        System.out.printf("Enter the total sales amounts for employee %d ", employeeId);
+	        for(int productId = 0; productId < sales[employeeId].length; productId++) {
+	            System.out.printf("product %d: ", productId);
+	            amount = in.nextDouble();
+	            sales[employeeId][productId] += amount;
+	        }
+	    }
+	    
+	    // print the data in tabular form while also totaling each employee's sales
+	    System.out.println();
+	    double employeeTotal;
+	    for(int employeeId = 0; employeeId < sales.length; employeeId++) {
+            System.out.printf("Employee %d", employeeId);
+            employeeTotal = 0;
+            for(int productId = 0; productId < sales[employeeId].length; productId++) {
+                System.out.printf("%10.2f", sales[employeeId][productId]);
+                employeeTotal += sales[employeeId][productId];
+            }
+            System.out.printf("|%10.2f%n", employeeTotal);
+	    }
+	    
+	    // add totals for each product
+	    double productTotal;
+	    System.out.print("Total     ");
+	    for(int productId = 0; productId < NUM_PRODUCTS; productId++) {
+            productTotal = 0;
+            for(int employeeId = 0; employeeId < sales.length; employeeId++) {
+                productTotal += sales[employeeId][productId];
+            }
+            System.out.printf("%10.2f", productTotal);
+        }
+	    System.out.println();
 	}
 
 }

@@ -13,6 +13,7 @@ public class Application {
      * times. Use a one-dimensional array to tally the number of times each possible
      * sum appears. Display the results in tabular format.
      */
+
     public static void main(String[] args) {
         Random gen = new Random();
         
@@ -33,5 +34,4 @@ public class Application {
             System.out.printf("%-8d%8d%8.2f\n", i+2, results[i], results[i] / 36000000.0);
         }
     }
-
 }

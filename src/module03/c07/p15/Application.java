@@ -27,6 +27,8 @@ public class Application {
 	 * month. Your output should include these cross-totals to the right of the
 	 * totaled rows and to the bottom of the totaled columns.
 	 */
+	
+
 
 	public static void main(String[] args) {
 		// sales structure: 

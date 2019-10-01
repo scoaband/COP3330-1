@@ -1,5 +1,7 @@
 package module04.ch06.p23;
 
+import java.util.Scanner;
+
 public class Application {
     /*
      * (Coin Tossing) Write an application that simulates coin tossing. Let the
@@ -11,9 +13,22 @@ public class Application {
      * approximately half the time.]
      */
 
+    static enum Coin { HEADS, TAILS };
+    
+    static Coin flip() {
+        if(Math.random() > 0.5) {
+            return Coin.HEADS;
+        } else {
+            return Coin.TAILS;
+        }
+    }
+    
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-
+        Scanner in = new Scanner(System.in);
+        
+        // flip the coin until the user says quit
+        // - track each Head or Tail
+        // print the totals
     }
 
 }

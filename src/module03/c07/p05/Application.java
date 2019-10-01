@@ -72,7 +72,11 @@ public class Application {
         }
         
         System.out.println("Pay summary for the week:\n");
-        System.out.printf("%10s%5d\n", "200-299", counters[0]);
+        System.out.printf("%10s%5d", "200-299", counters[0]);
+        for(int i = 0; i < counters[0]; i++) {
+        	System.out.print("*");
+        }
+        System.out.println();
         System.out.printf("%10s%5d\n", "300-399", counters[1]);
         System.out.printf("%10s%5d\n", "400-499", counters[2]);
         System.out.printf("%10s%5d\n", "500-599", counters[3]);

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b85582f-4fb8-43d0-a261-5be6c8e781fe" name="Default Changelist" comment="" />
+    <list default="true" id="3f822030-7935-4869-8894-10fd06c70ca9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Part02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Part02/module04/ch06/p02/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part02/module04/ch06/p02/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Part02/module04/ch06/p04/ApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part02/module04/ch06/p04/ApplicationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Part02/module04/ch06/p09/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Part02/module04/ch06/p09/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module04/ch06/p02/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module04/ch06/p02/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module04/ch06/p09/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module04/ch06/p09/Application.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,23 +22,31 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1RXrZz233GK7GLlKiv0RA79sOtp" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Rc40qpQdcxQW9ee2mPqtN69Zf1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="module04.ch06.p02" />
+      <recent name="module05.ch08.p02" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -45,13 +64,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ApplicationTest (1)">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="module04.ch06.p02.Application" />
+  <component name="RunManager" selected="JUnit.RectangleTest">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module05.ch08.p02.Application" />
       <module name="Part02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="module04.ch06.p02.*" />
+          <option name="PATTERN" value="module05.ch08.p02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,17 +78,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module04.ch06.p09.Application" />
       <module name="Part02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="module04.ch06.p04.*" />
+          <option name="PATTERN" value="module04.ch06.p09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="module04.ch06.p04" />
-      <option name="MAIN_CLASS_NAME" value="module04.ch06.p04.ApplicationTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,9 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Part02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module05.ch08.p02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="module05.ch08.p02" />
+      <option name="MAIN_CLASS_NAME" value="module05.ch08.p02.RectangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApplicationTest (1)" />
+        <item itemvalue="JUnit.RectangleTest" />
+        <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.ApplicationTest" />
       </list>
@@ -102,17 +135,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9b85582f-4fb8-43d0-a261-5be6c8e781fe" name="Default Changelist" comment="" />
-      <created>1569824340827</created>
+      <changelist id="3f822030-7935-4869-8894-10fd06c70ca9" name="Default Changelist" comment="" />
+      <created>1569952830844</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569824340827</updated>
+      <updated>1569952830844</updated>
     </task>
     <servers />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Part02$ApplicationTest.ic" NAME="ApplicationTest Coverage Results" MODIFIED="1569826643355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>module04.ch06.p02.*</FILTER>
-    </SUITE>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
